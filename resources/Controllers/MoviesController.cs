@@ -1,4 +1,3 @@
-// Controllers/MoviesController.cs
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
