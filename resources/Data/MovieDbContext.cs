@@ -7,6 +7,6 @@ public class MovieDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=resources/sqlDB/movie.db");
+        optionsBuilder.UseSqlite("Data Source=D:\Projects\MovieProject\resources\sqlDB\movie.db");
     }
 }
