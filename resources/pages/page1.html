@@ -1,0 +1,24 @@
+<!-- Views/Movies/Index.cshtml -->
+@model List<Movie>
+
+    <h2>Movie List</h2>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Movie ID</th>
+                <th>Movie Name</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.id</td>
+                    <td>@movie.name</td>
+                    <td>@movie.rating</td>
+                </tr>
+            }
+        </tbody>
+    </table>
